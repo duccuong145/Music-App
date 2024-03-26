@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".activity.HomeActivity">
+
+    <TextView
+        android:id="@+id/textviewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-8dp"
+        android:padding="5dp"
+        android:text="Tên Bài Hát"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPrev"
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="-627dp"
+
+        android:background="@null"
+        android:src="@drawable/previous" />
+
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/imageButtonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="606dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="-633dp"
+        android:src="@drawable/start" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="-632dp"
+        android:background="@null"
+        android:src="@drawable/stop" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="605dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="-632dp"
+        android:background="@null"
+        android:src="@drawable/next" />
+
+    <SeekBar
+        android:id="@+id/seekBarSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-9dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="-523dp" />
+
+    <TextView
+        android:id="@+id/textViewTimeSong"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="331dp"
+        android:layout_marginBottom="-493dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewTimeTotal"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="316dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-491dp"
+        android:text="00:00"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textviewTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="339dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="-55dp"
+        android:background="@null"
+        android:src="@drawable/img" />
+
+
+</RelativeLayout>
